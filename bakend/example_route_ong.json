@@ -1,0 +1,742 @@
+[
+    {
+        "country": "Afghanistan",
+        "numberUser": 25520
+    },
+    {
+        "country": "Albania",
+        "numberUser": 74977
+    },
+    {
+        "country": "Algeria",
+        "numberUser": 1521549
+    },
+    {
+        "country": "Angola",
+        "numberUser": 87691
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "numberUser": 21417
+    },
+    {
+        "country": "Argentina",
+        "numberUser": 6210799
+    },
+    {
+        "country": "Armenia",
+        "numberUser": 147000
+    },
+    {
+        "country": "Aruba",
+        "numberUser": 22710
+    },
+    {
+        "country": "Austria",
+        "numberUser": 4460082
+    },
+    {
+        "country": "Bahamas",
+        "numberUser": 70956
+    },
+    {
+        "country": "Bahrain",
+        "numberUser": 178074
+    },
+    {
+        "country": "Bangladesh",
+        "numberUser": 281253
+    },
+    {
+        "country": "Barbados",
+        "numberUser": 135999
+    },
+    {
+        "country": "Belgium",
+        "numberUser": 5644591
+    },
+    {
+        "country": "Belize",
+        "numberUser": 27057
+    },
+    {
+        "country": "Benin",
+        "numberUser": 91647
+    },
+    {
+        "country": "Bhutan",
+        "numberUser": 20214
+    },
+    {
+        "country": "Bolivia",
+        "numberUser": 398161
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "numberUser": 584926
+    },
+    {
+        "country": "Botswana",
+        "numberUser": 60457
+    },
+    {
+        "country": "Brazil",
+        "numberUser": 35236408
+    },
+    {
+        "country": "Brunei",
+        "numberUser": 106834
+    },
+    {
+        "country": "Bulgaria",
+        "numberUser": 1403854
+    },
+    {
+        "country": "Burkina Faso",
+        "numberUser": 52161
+    },
+    {
+        "country": "Burundi",
+        "numberUser": 25071
+    },
+    {
+        "country": "Cambodia",
+        "numberUser": 39247
+    },
+    {
+        "country": "Cameroon",
+        "numberUser": 165533
+    },
+    {
+        "country": "Canada",
+        "numberUser": 21072546
+    },
+    {
+        "country": "Cape Verde",
+        "numberUser": 24874
+    },
+    {
+        "country": "Central African Republic",
+        "numberUser": 9059
+    },
+    {
+        "country": "Chad",
+        "numberUser": 35045
+    },
+    {
+        "country": "Chile",
+        "numberUser": 4501077
+    },
+    {
+        "country": "China",
+        "numberUser": 95922546
+    },
+    {
+        "country": "Colombia",
+        "numberUser": 3895884
+    },
+    {
+        "country": "Comoros",
+        "numberUser": 7927
+    },
+    {
+        "country": "Congo",
+        "numberUser": 38849
+    },
+    {
+        "country": "Costa Rica",
+        "numberUser": 870582
+    },
+    {
+        "country": "Ivoire",
+        "numberUser": 152852
+    },
+    {
+        "country": "Croatia",
+        "numberUser": 1355070
+    },
+    {
+        "country": "Cuba",
+        "numberUser": 947323
+    },
+    {
+        "country": "Cyprus",
+        "numberUser": 341822
+    },
+    {
+        "country": "Czechia",
+        "numberUser": 3635035
+    },
+    {
+        "country": "Democratic Republic of Congo",
+        "numberUser": 104058
+    },
+    {
+        "country": "Denmark",
+        "numberUser": 4372454
+    },
+    {
+        "country": "Djibouti",
+        "numberUser": 6022
+    },
+    {
+        "country": "Dominican Republic",
+        "numberUser": 807031
+    },
+    {
+        "country": "Ecuador",
+        "numberUser": 653116
+    },
+    {
+        "country": "Egypt",
+        "numberUser": 8985522
+    },
+    {
+        "country": "El Salvador",
+        "numberUser": 192025
+    },
+    {
+        "country": "Equatorial Guinea",
+        "numberUser": 6117
+    },
+    {
+        "country": "Estonia",
+        "numberUser": 725417
+    },
+    {
+        "country": "Eswatini",
+        "numberUser": 35356
+    },
+    {
+        "country": "Ethiopia",
+        "numberUser": 115917
+    },
+    {
+        "country": "Fiji",
+        "numberUser": 60664
+    },
+    {
+        "country": "Finland",
+        "numberUser": 3794818
+    },
+    {
+        "country": "France",
+        "numberUser": 23837107
+    },
+    {
+        "country": "French Polynesia",
+        "numberUser": 45029
+    },
+    {
+        "country": "Gabon",
+        "numberUser": 40641
+    },
+    {
+        "country": "Gambia",
+        "numberUser": 46265
+    },
+    {
+        "country": "Georgia",
+        "numberUser": 176175
+    },
+    {
+        "country": "Germany",
+        "numberUser": 52894546
+    },
+    {
+        "country": "Ghana",
+        "numberUser": 360296
+    },
+    {
+        "country": "Greece",
+        "numberUser": 2414136
+    },
+    {
+        "country": "Grenada",
+        "numberUser": 20090
+    },
+    {
+        "country": "Guam",
+        "numberUser": 57171
+    },
+    {
+        "country": "Guatemala",
+        "numberUser": 652643
+    },
+    {
+        "country": "Guinea",
+        "numberUser": 48288
+    },
+    {
+        "country": "Guinea-Bissau",
+        "numberUser": 24416
+    },
+    {
+        "country": "Haiti",
+        "numberUser": 492551
+    },
+    {
+        "country": "Honduras",
+        "numberUser": 403433
+    },
+    {
+        "country": "Hong Kong",
+        "numberUser": 3836657
+    },
+    {
+        "country": "Hungary",
+        "numberUser": 2805923
+    },
+    {
+        "country": "Iceland",
+        "numberUser": 244178
+    },
+    {
+        "country": "India",
+        "numberUser": 22253980
+    },
+    {
+        "country": "Indonesia",
+        "numberUser": 5814620
+    },
+    {
+        "country": "Iran",
+        "numberUser": 5214321
+    },
+    {
+        "country": "Iraq",
+        "numberUser": 236849
+    },
+    {
+        "country": "Ireland",
+        "numberUser": 1527224
+    },
+    {
+        "country": "Israel",
+        "numberUser": 1472983
+    },
+    {
+        "country": "Italy",
+        "numberUser": 19443640
+    },
+    {
+        "country": "Jamaica",
+        "numberUser": 272878
+    },
+    {
+        "country": "Japan",
+        "numberUser": 79997523
+    },
+    {
+        "country": "Jordan",
+        "numberUser": 645381
+    },
+    {
+        "country": "Kazakhstan",
+        "numberUser": 407787
+    },
+    {
+        "country": "Kenya",
+        "numberUser": 1060500
+    },
+    {
+        "country": "Kiribati",
+        "numberUser": 3169
+    },
+    {
+        "country": "Kuwait",
+        "numberUser": 506217
+    },
+    {
+        "country": "Kyrgyzstan",
+        "numberUser": 256450
+    },
+    {
+        "country": "Laos",
+        "numberUser": 20474
+    },
+    {
+        "country": "Latvia",
+        "numberUser": 879182
+    },
+    {
+        "country": "Lebanon",
+        "numberUser": 347694
+    },
+    {
+        "country": "Lesotho",
+        "numberUser": 42069
+    },
+    {
+        "country": "Liberia",
+        "numberUser": 985
+    },
+    {
+        "country": "Libya",
+        "numberUser": 201540
+    },
+    {
+        "country": "Lithuania",
+        "numberUser": 1055923
+    },
+    {
+        "country": "Luxembourg",
+        "numberUser": 297658
+    },
+    {
+        "country": "Macao",
+        "numberUser": 148433
+    },
+    {
+        "country": "Madagascar",
+        "numberUser": 93529
+    },
+    {
+        "country": "Malawi",
+        "numberUser": 44050
+    },
+    {
+        "country": "Malaysia",
+        "numberUser": 10636631
+    },
+    {
+        "country": "Maldives",
+        "numberUser": 20451
+    },
+    {
+        "country": "Mali",
+        "numberUser": 53635
+    },
+    {
+        "country": "Malta",
+        "numberUser": 140213
+    },
+    {
+        "country": "Mauritania",
+        "numberUser": 14650
+    },
+    {
+        "country": "Mauritius",
+        "numberUser": 166415
+    },
+    {
+        "country": "Mexico",
+        "numberUser": 15086377
+    },
+    {
+        "country": "Micronesia (country)",
+        "numberUser": 11743
+    },
+    {
+        "country": "Moldova",
+        "numberUser": 442856
+    },
+    {
+        "country": "Montenegro",
+        "numberUser": 155940
+    },
+    {
+        "country": "Morocco",
+        "numberUser": 3503192
+    },
+    {
+        "country": "Mozambique",
+        "numberUser": 138014
+    },
+    {
+        "country": "Myanmar",
+        "numberUser": 11700
+    },
+    {
+        "country": "Namibia",
+        "numberUser": 76445
+    },
+    {
+        "country": "Nepal",
+        "numberUser": 113853
+    },
+    {
+        "country": "Netherlands",
+        "numberUser": 11159977
+    },
+    {
+        "country": "New Caledonia",
+        "numberUser": 69347
+    },
+    {
+        "country": "New Zealand",
+        "numberUser": 2523654
+    },
+    {
+        "country": "Nicaragua",
+        "numberUser": 123220
+    },
+    {
+        "country": "Niger",
+        "numberUser": 24933
+    },
+    {
+        "country": "Nigeria",
+        "numberUser": 1741348
+    },
+    {
+        "country": "North Korea",
+        "numberUser": 0
+    },
+    {
+        "country": "North Macedonia",
+        "numberUser": 502742
+    },
+    {
+        "country": "Norway",
+        "numberUser": 3572352
+    },
+    {
+        "country": "Oman",
+        "numberUser": 165237
+    },
+    {
+        "country": "Pakistan",
+        "numberUser": 9294582
+    },
+    {
+        "country": "Palestine",
+        "numberUser": 154210
+    },
+    {
+        "country": "Panama",
+        "numberUser": 364255
+    },
+    {
+        "country": "Papua New Guinea",
+        "numberUser": 92910
+    },
+    {
+        "country": "Paraguay",
+        "numberUser": 196918
+    },
+    {
+        "country": "Peru",
+        "numberUser": 3845520
+    },
+    {
+        "country": "Philippines",
+        "numberUser": 4440226
+    },
+    {
+        "country": "Poland",
+        "numberUser": 12490240
+    },
+    {
+        "country": "Portugal",
+        "numberUser": 3345884
+    },
+    {
+        "country": "Puerto Rico",
+        "numberUser": 835736
+    },
+    {
+        "country": "Qatar",
+        "numberUser": 157095
+    },
+    {
+        "country": "Romania",
+        "numberUser": 3238675
+    },
+    {
+        "country": "Russia",
+        "numberUser": 18523256
+    },
+    {
+        "country": "Rwanda",
+        "numberUser": 37995
+    },
+    {
+        "country": "Saint Lucia",
+        "numberUser": 34714
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "numberUser": 8002
+    },
+    {
+        "country": "Samoa",
+        "numberUser": 5498
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "numberUser": 20247
+    },
+    {
+        "country": "Saudi Arabia",
+        "numberUser": 2377368
+    },
+    {
+        "country": "Senegal",
+        "numberUser": 480530
+    },
+    {
+        "country": "Seychelles",
+        "numberUser": 21234
+    },
+    {
+        "country": "Sierra Leone",
+        "numberUser": 11043
+    },
+    {
+        "country": "Singapore",
+        "numberUser": 2709425
+    },
+    {
+        "country": "Slovakia",
+        "numberUser": 2855753
+    },
+    {
+        "country": "Slovenia",
+        "numberUser": 812703
+    },
+    {
+        "country": "Solomon Islands",
+        "numberUser": 2978
+    },
+    {
+        "country": "Somalia",
+        "numberUser": 106570
+    },
+    {
+        "country": "South Africa",
+        "numberUser": 4064900
+    },
+    {
+        "country": "South Korea",
+        "numberUser": 35258106
+    },
+    {
+        "country": "Spain",
+        "numberUser": 19079069
+    },
+    {
+        "country": "Sri Lanka",
+        "numberUser": 280158
+    },
+    {
+        "country": "Sub-Saharan Africa",
+        "numberUser": 10838288
+    },
+    {
+        "country": "Sudan",
+        "numberUser": 238943
+    },
+    {
+        "country": "Suriname",
+        "numberUser": 29993
+    },
+    {
+        "country": "Sweden",
+        "numberUser": 7542247
+    },
+    {
+        "country": "Switzerland",
+        "numberUser": 4981433
+    },
+    {
+        "country": "Tajikistan",
+        "numberUser": 5201
+    },
+    {
+        "country": "Tanzania",
+        "numberUser": 335672
+    },
+    {
+        "country": "Thailand",
+        "numberUser": 6940485
+    },
+    {
+        "country": "Togo",
+        "numberUser": 83019
+    },
+    {
+        "country": "Tonga",
+        "numberUser": 3968
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "numberUser": 348758
+    },
+    {
+        "country": "Tunisia",
+        "numberUser": 854383
+    },
+    {
+        "country": "Turkey",
+        "numberUser": 9769745
+    },
+    {
+        "country": "Turkmenistan",
+        "numberUser": 35466
+    },
+    {
+        "country": "Uganda",
+        "numberUser": 198485
+    },
+    {
+        "country": "Ukraine",
+        "numberUser": 1647591
+    },
+    {
+        "country": "United Arab Emirates",
+        "numberUser": 1231747
+    },
+    {
+        "country": "United Kingdom",
+        "numberUser": 39289976
+    },
+    {
+        "country": "United States",
+        "numberUser": 189443366
+    },
+    {
+        "country": "United States Virgin Islands",
+        "numberUser": 29591
+    },
+    {
+        "country": "Uruguay",
+        "numberUser": 567194
+    },
+    {
+        "country": "Uzbekistan",
+        "numberUser": 678527
+    },
+    {
+        "country": "Vanuatu",
+        "numberUser": 9690
+    },
+    {
+        "country": "Venezuela",
+        "numberUser": 2212664
+    },
+    {
+        "country": "Vietnam",
+        "numberUser": 6383526
+    },
+    {
+        "country": "World",
+        "numberUser": 912821319
+    },
+    {
+        "country": "Yemen",
+        "numberUser": 176395
+    },
+    {
+        "country": "Zambia",
+        "numberUser": 236225
+    },
+    {
+        "country": "Zimbabwe",
+        "numberUser": 268328
+    },
+    {
+        "country": "total",
+        "numberUser": 1813210750
+    }
+]
