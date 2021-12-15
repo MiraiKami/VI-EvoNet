@@ -3,10 +3,12 @@ import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
+import cors from 'cors';
 
 import {router} from "./routes";
 
 var app = express();
+app.use(cors());
 
 // view engine setup
 app.set('views', path.join(path.resolve(__dirname, '..'), 'src', 'views'));

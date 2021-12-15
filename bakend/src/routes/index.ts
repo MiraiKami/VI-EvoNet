@@ -2,7 +2,7 @@ import express from 'express';
 import path from "path";
 import csv from "csv-parser";
 import * as fs from "fs";
-import {mapStrMapToJSON} from "../utils/JSONUtils";
+import {mapStrNumberToJSON} from "../utils/JSONUtils";
 import createError from "http-errors";
 var router = express.Router();
 
@@ -13,7 +13,7 @@ router.get('/', function(req: any, res: { render: (arg0: string, arg1: { title: 
     res.render('index', { title: 'Express' });
 });
 
-router.get('/ong/share/:year', function(req: any, res: any, next: any) {
+router.get('/ong/number/:year', function(req: any, res: any, next: any) {
     const year: number = +req.params.year;
     const results: Array<any> = [];
     let total: number = 0;
@@ -39,22 +39,24 @@ router.get('/ong/share/:year', function(req: any, res: any, next: any) {
 
 router.get('/gov/:country/mobile', function(req: any, res: any, next: any) {
     const country: string = req.params.country.toLowerCase();
-    let results: Map<string, Map<string, number>> = new Map();
+    let results: Map<string, Array<number>> = new Map();
+    results.set('year', []);
+    results.set('mobile', []);
     fs.createReadStream(path.join(ressources_path, 'mobile-cellular-subscriptions-per-100-people.csv'))
         .pipe(csv())
         .on('data', (data: any) => {
             if (data.Entity.toLowerCase() === country) {
-                let year = data.Year;
+                let year = +data.Year;
                 let percentUsers = +data['Mobile cellular subscriptions (per 100 people)'];
-                if (results.get(year) === undefined) {
-                    results.set(year, new Map());
+                if (year >= 2004) {
+                    results.get('year').push(+year);
+                    results.get('mobile').push(+percentUsers);
                 }
-                results.get(year).set('percentUsers', percentUsers);
             }
         })
         .on('end', () => {
             if (results.size !== 0) {
-                res.status(200).json(mapStrMapToJSON(results));
+                res.status(200).json(mapStrNumberToJSON(results));
             } else {
                 next(createError(404));
             }
@@ -63,22 +65,24 @@ router.get('/gov/:country/mobile', function(req: any, res: any, next: any) {
 
 router.get('/gov/:country/broadband', function(req: any, res: any, next: any) {
     const country: string = req.params.country.toLowerCase();
-    let results: Map<string, Map<string, number>> = new Map();
+    let results: Map<string, Array<number>> = new Map();
+    results.set('year', []);
+    results.set('broadband', []);
     fs.createReadStream(path.join(ressources_path, 'broadband-penetration-by-country.csv'))
         .pipe(csv())
         .on('data', (data: any) => {
             if (data.Entity.toLowerCase() === country){
-                let year = data.Year;
+                let year = +data.Year;
                 let broadbandPenetration = +data['Fixed broadband subscriptions (per 100 people)'];
-                if (results.get(year) === undefined) {
-                    results.set(year, new Map());
+                if (year >= 2004) {
+                    results.get('year').push(+year);
+                    results.get('broadband').push(+broadbandPenetration);
                 }
-                results.get(year).set('broadbandPenetration', broadbandPenetration);
             }
         })
         .on('end', () => {
             if (results.size !== 0) {
-                res.status(200).json(mapStrMapToJSON(results));
+                res.status(200).json(mapStrNumberToJSON(results));
             } else {
                 next(createError(404));
             }
@@ -87,22 +91,24 @@ router.get('/gov/:country/broadband', function(req: any, res: any, next: any) {
 
 router.get('/gov/:country/share', function(req: any, res: any, next: any) {
     const country: string = req.params.country.toLowerCase();
-    let results: Map<string, Map<string, number>> = new Map();
+    let results: Map<string, Array<number>> = new Map();
+    results.set('year', []);
+    results.set('share', []);
     fs.createReadStream(path.join(ressources_path, 'share-of-individuals-using-the-internet.csv'))
         .pipe(csv())
         .on('data', (data: any) => {
             if (data.Entity.toLowerCase() === country){
-                let year = data.Year;
+                let year = +data.Year;
                 let share = +data['Individuals using the Internet (% of population)'];
-                if (results.get(year) === undefined) {
-                    results.set(year, new Map());
+                if (year >= 2004) {
+                    results.get('year').push(+year);
+                    results.get('share').push(+share);
                 }
-                results.get(year).set('share', share);
             }
         })
         .on('end', () => {
             if (results.size !== 0) {
-                res.status(200).json(mapStrMapToJSON(results));
+                res.status(200).json(mapStrNumberToJSON(results));
             } else {
                 next(createError(404));;
             }
