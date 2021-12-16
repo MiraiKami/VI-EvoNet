@@ -18,19 +18,25 @@ router.get('/', function(req: any, res: { render: (arg0: string, arg1: { title: 
     res.render('index', { title: 'Express' });
 });
 
+
+router.get('/ong/getYears', function(req: any, res: any, next: any) {
+    const years: Array<number> = <Array<number>>[... new Set(number_users_per_country.map((e: any) => +e.Year))];
+
+    res.status(200).json(years.sort());
+});
+
 router.get('/ong/:year', function(req: any, res: any, next: any) {
     const year: number = +req.params.year;
-    let total: JSONValue = {};
     let acc: number = 0;
-    total["country"] = "total";
 
-    const filtered_countries = number_users_per_country.filter((m: any) => +m.Year == year);
+
+    const filtered_countries = number_users_per_country.filter((m: any) => +m.Year == year && m.Entity.toLowerCase() !== "world");
 
     if (filtered_countries.length === 0){
         res.status(404).json("ressource not found");
     }
 
-    const results: Array<JSONValue> = filtered_countries.map((m: any) => {
+    let results: Array<JSONValue> = filtered_countries.map((m: any) => {
        const res: JSONValue = {};
        res["country"] = m.Entity;
        res["numberUser"] = +m['Number of internet users (OWID based on WB & UN)'];
@@ -38,8 +44,12 @@ router.get('/ong/:year', function(req: any, res: any, next: any) {
        return res;
     });
 
-    total["numberUser"] = acc;
-    results.push(total);
+    results = results.map((e: {country: string, numberUser: number}) => {
+        const res: JSONValue = {};
+        res["country"] = e.country;
+        res["numberUser"] = e.numberUser/acc*100;
+        return res;
+    });
 
     res.status(200).json(results);
 });
