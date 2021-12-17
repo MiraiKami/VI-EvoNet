@@ -84,7 +84,27 @@ function GovComponent () {
                         autosize: true,
                         ...defaultRange,
                         uirevision: 'true',
-                        title: 'Internet Usage for '+location
+                        title: 'Internet Usage for '+location,
+                        xaxis: {
+                            title: {
+                                text: 'Years',
+                                font: {
+                                    family: 'Courier New, monospace',
+                                    size: 18,
+                                    color: '#7f7f7f'
+                                }
+                            },
+                        },
+                        yaxis: {
+                            title: {
+                                text: 'Values',
+                                font: {
+                                    family: 'Courier New, monospace',
+                                    size: 18,
+                                    color: '#7f7f7f'
+                                }
+                            }
+                        }
                     }}
                     useResizeHandler={true}
                     style={{width: "100%", height: "auto"}}
