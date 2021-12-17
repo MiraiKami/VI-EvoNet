@@ -160,7 +160,7 @@ function OngComponent() {
                         data={dataBubbleChart}
                     />
                 </Grid>
-                <Grid item xs alignItems="center">
+                <Grid item xs={3} alignItems="center">
                     <Paper className="mt-4">
                         <Typography id="global-params" component='h5' variant='h5' style={{textAlign: "center"}} gutterBottom>Chose the year</Typography>
                         <Divider />
