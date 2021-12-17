@@ -128,7 +128,7 @@ function OngComponent() {
                         graph={{
                             zoom: 0.95,
                             offsetX: 0.005,
-                            offsetY: -0.01,
+                            offsetY: 0.07,
                         }}
                         width={windowDimensions.width/2}
                         height={windowDimensions.height}
