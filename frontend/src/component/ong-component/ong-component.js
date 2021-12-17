@@ -121,14 +121,14 @@ function OngComponent() {
     }
 
     return (
-        <div style={{ padding: 20 }}>
+        <div style={{ padding: 20}}>
             <Grid container justifyContent="center" alignItems="center">
-                <Grid item xs={7}>
+                <Grid item xs={7} style={{marginTop:100}}>
                     <BubbleChart
                         graph={{
                             zoom: 0.95,
                             offsetX: 0.005,
-                            offsetY: 0.07,
+                            offsetY: 0.005,
                         }}
                         width={windowDimensions.width/2}
                         height={windowDimensions.height}
